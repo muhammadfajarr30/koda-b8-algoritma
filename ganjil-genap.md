@@ -8,8 +8,8 @@ algoritma yang menentukan apakah angka tersebut ganjil atau genap
 
 1. Mulai
 2. Buat variable bernama n untuk menampung suatu nilai/bilangan
-3. Selanjutnya buat kondisi untuk menentukan apakah nilai/bilangan tersebut genap dengan cara apakah n dapat habis dibagi dengan 2
-4. Selanjutnya jika nilai/angka tersebut tidak dapat habis di bagi dengan 2 maka angka tersebut adalah bilangan ganjil
+3. buat kondisi untuk menentukan apakah nilai/bilangan tersebut genap dengan cara apakah n dapat habis dibagi dengan 2
+4. jika nilai/angka tersebut tidak dapat habis di bagi dengan 2 maka angka tersebut adalah bilangan ganjil
 5. Selesai
 
 ## Flowchart
@@ -19,7 +19,7 @@ membuat flowchart sebuah algoritma yang menentukan apakah angka tersebut ganjil 
 ```mermaid
 flowchart TD
 a@{ shape: circle, label: "Start" }
-b@{ shape: lean-r, label: "bilangan = n " }
+b@{ shape: lean-r, label: "n " }
 c@{ shape: diamond, label: "n % 2 == 0" }
 d@{ shape: lean-r, label: "#quot;Genap#quot;" }
 e@{ shape: lean-r, label: "#quot;Ganjil#quot;" }
@@ -40,10 +40,9 @@ d--> f
 ## Pseudo-code
 
 ```pseudo
-DECLARE bilangan: INTEGER
 DECLARE n: INTEGER
 
-bilangan <- n
+INPUT n
 
 IF n % 2 == 0 THEN
     OUTPUT "Genap"
