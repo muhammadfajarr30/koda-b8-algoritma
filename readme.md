@@ -5,9 +5,9 @@
 ## Deskriptif Algoritma
 
 1. Mulai
-2. buat nilai a yang berisi nilai berat badan
-3. buat nilai b yang berisi tinggi badan
-4. Buat nilai BMI dengan cara berat badan dibagi (tinggi badan dikali tinggi badan)
+2. masukkan nilai a yang berisi nilai berat badan
+3. masukkan nilai b yang berisi tinggi badan
+4. hitung nilai BMI dengan cara berat badan dibagi (tinggi badan dikali tinggi badan)
 5. jika BMI kurang dari 18.5 maka kurus
 6. jika BMI kurang dari 25 maka normal
 7. jika BMi kurang dari 30 maka gemuk
@@ -22,7 +22,7 @@ flowchart TD
     start@{shape: circle, label:"start"}
   a@{ shape: lean-r, label: "a" }
   b@{ shape: lean-r, label: "b" }
-  c@{ shape: lean-r, label: "BMI = a/(bxb)" }
+  c@{ shape: lean-r, label: "BMI = a/(b * b)" }
   d@{ shape: diamond, label: "BMI < 18.5" }
   e@{ shape: diamond, label: "BMI < 25" }
   f@{ shape: diamond, label: "BMI < 30" }
@@ -50,15 +50,15 @@ start-->a
 ## Pseudo-Code
 
 ```Pseudo-code
-DECLARE a = DOUBLE
-DECLARE b = DOUBLE
-DECLARE BMI = DOUBLE
+DECLARE a = REAL
+DECLARE b = REAL
+DECLARE BMI = REAL
 
 INPUT a
 INPUT b
 BMI <- a / (b * b)
 
-    IF bmi < 18.5 THEN
+    IF BMI < 18.5 THEN
 OUTPUT "KURUS"
     ELSE IF BMI <25 THEN
 OUTPUT "NORMAL"
