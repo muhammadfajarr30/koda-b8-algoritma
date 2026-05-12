@@ -5,11 +5,14 @@
 Algoritma menghitung luas dan keliling lingkaran
 
 1. Mulai
-2. tentukan nilai jari jari
-3. untuk mengetahui nilai pi tentukan apakah jari-jari dapat habis dibagi dengan 7 jika dapat habis dibagi dengan 7 maka pi bernilai 22/7 jika tidak maka pi bernilai 3.14
-4. selanjutnya untuk mengetahui luas lingkaran didapat dengan rumus pi dikalikan dengan jari-jari lingkaran kuadrat
-5. selanjutnya untuk mengetahui keliling lingkaran didapat dengan rumus dua dikalikan dengan pi dikalikan dengan pi dikalikan dengan jari-jari
-6. selesai
+2. masukan nilai ke dalam r untuk menampung nilai jari-jari
+3. jika nilai r dimodulkan dengan 7 sama dengan nol maka gunakan nilai 22/7 untuk pi
+4. jika tidak maka gunakan nilai 3.14 untuk pi
+5. hitung luas dengan pi dikalikan r kuadrat
+6. outputkan nilai dari luas lingkaran
+7. hitung keliling dengan dua dikalikan dengan pi dikalikan dengan r
+8. outputkan nilai dari keliling lingkaran
+9. selesai
 
 ## flowchart
 
@@ -39,6 +42,31 @@ f--> h
 h--> g
 g--> i
 i--> j
+
+
+```
+
+## PSEUDO-CODE
+
+```pseudo code
+
+DECLARE r: INTEGER
+DECLARE pi: REAL
+DECLARE luas: REAL
+DECLARE keliling: REAL
+
+INPUT r
+
+IF r % 7 == 0 THEN
+    pi = 22/7
+ELSE
+    pi = 3.14
+ENDIF
+
+luas <-- pi * r * r
+OUTPUT "luas lingkaran", luas
+keliling <-- 2 * pi * r
+OUTPUT "keliling lingkaran", keliling
 
 
 ```
