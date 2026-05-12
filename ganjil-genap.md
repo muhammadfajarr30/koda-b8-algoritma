@@ -21,9 +21,10 @@ flowchart TD
 a@{ shape: circle, label: "Start" }
 b@{ shape: lean-r, label: "bilangan = n " }
 c@{ shape: diamond, label: "n % 2 == 0" }
-d@{ shape: lean-r, label: "Genap" }
-e@{ shape: lean-r, label: "Ganjil" }
+d@{ shape: lean-r, label: "#quot;Genap#quot;" }
+e@{ shape: lean-r, label: "#quot;Ganjil#quot;" }
 f@{ shape: dbl-circ, label: "Stop" }
+
 
 
 a --> b
@@ -33,5 +34,20 @@ c -- no --> e
 e --> f
 d--> f
 
+
+```
+
+## Pseudo-code
+
+```pseudo
+DECLARE bilangan: INTEGER
+DECLARE n: INTEGER
+
+bilangan <- n
+
+IF n % 2 == 0 THEN
+    OUTPUT "Genap"
+ELSE
+    OUTPUT "Ganjil"
 
 ```
