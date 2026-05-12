@@ -50,9 +50,9 @@ start-->a
 ## Pseudo-Code
 
 ```Pseudo-code
-DECLARE a = REAL
-DECLARE b = REAL
-DECLARE BMI = REAL
+DECLARE a = DOUBLE
+DECLARE b = DOUBLE
+DECLARE BMI = DOUBLE
 
 INPUT a
 INPUT b
