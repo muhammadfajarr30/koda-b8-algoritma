@@ -1,5 +1,6 @@
-#Algoritma
-##Memindahkan air di dalam gelas
+# lgoritma
+
+## Memindahkan air di dalam gelas
 
 algoritma yang ditulis untuk menyelesaikan masalah memindahkan air teh dan air kopi
 
