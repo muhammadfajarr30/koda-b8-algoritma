@@ -10,3 +10,35 @@ Algoritma menghitung luas dan keliling lingkaran
 4. selanjutnya untuk mengetahui luas lingkaran didapat dengan rumus pi dikalikan dengan jari-jari lingkaran kuadrat
 5. selanjutnya untuk mengetahui keliling lingkaran didapat dengan rumus dua dikalikan dengan pi dikalikan dengan pi dikalikan dengan jari-jari
 6. selesai
+
+## flowchart
+
+membuat flowchart untuk program menghitung luas dan keliling lingkaran
+
+```mermaid
+flowchart TD
+
+a@{ shape: circle, label: "start" }
+b@{ shape: lean-r, label: "r" }
+c@{ shape: diamond, label: " r % 7 == 0" }
+d@{ shape: lean-r, label: "pi = 22/7" }
+e@{ shape: lean-r, label: "pi = 3.14" }
+f@{ shape: rect, label: "luas: pi x r x r " }
+g@{ shape: rect, label: "keliling: 2 x pi x r " }
+h@{ shape: lean-r, label: "#quot;luas#quot;" }
+i@{ shape: lean-r, label: "#quot;keliling#quot;" }
+j@{ shape: dbl-circ, label: "Stop" }
+
+a --> b
+b--> c
+c-- yes --> d
+c-- no --> e
+d--> f
+e--> f
+f--> h
+h--> g
+g--> i
+i--> j
+
+
+```
