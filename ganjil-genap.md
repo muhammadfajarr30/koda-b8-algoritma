@@ -49,5 +49,5 @@ IF n % 2 == 0 THEN
     OUTPUT "Genap"
 ELSE
     OUTPUT "Ganjil"
-
+ENDIF
 ```
