@@ -7,9 +7,9 @@
 algoritma yang menentukan apakah angka tersebut ganjil atau genap
 
 1. Mulai
-2. Buat variable bernama n untuk menampung suatu nilai/bilangan
-3. buat kondisi untuk menentukan apakah nilai/bilangan tersebut genap dengan cara apakah n dapat habis dibagi dengan 2
-4. jika nilai/angka tersebut tidak dapat habis di bagi dengan 2 maka angka tersebut adalah bilangan ganjil
+2. masukan nilai bernama n untuk menampung suatu nilai/bilangan
+3. jika nilai n dimodulokan 2 sama dengan 0 maka outputkan genap
+4. jika tidak maka outputkan ganjil
 5. Selesai
 
 ## Flowchart
