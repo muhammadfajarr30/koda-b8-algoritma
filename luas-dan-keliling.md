@@ -23,10 +23,10 @@ b@{ shape: lean-r, label: "r" }
 c@{ shape: diamond, label: " r % 7 == 0" }
 d@{ shape: rect, label: "pi = 22/7" }
 e@{ shape: rect, label: "pi = 3.14" }
-f@{ shape: rect, label: "luas: pi x r x r " }
-g@{ shape: rect, label: "keliling: 2 x pi x r " }
-h@{ shape: lean-r, label: "luas lingkaran: #quot;{luas}#quot;" }
-i@{ shape: lean-r, label: "Keliling: #quot;{keliling}#quot;" }
+f@{ shape: rect, label: "luas = pi x r x r " }
+g@{ shape: rect, label: "keliling = 2 x pi x r " }
+h@{ shape: lean-r, label: "#quot;luas lingkaran {luas}#quot;" }
+i@{ shape: lean-r, label: "#quot;Keliling lingkaran {keliling}#quot;" }
 j@{ shape: dbl-circ, label: "Stop" }
 
 a --> b
