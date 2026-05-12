@@ -1,4 +1,4 @@
-# lgoritma
+# Algoritma
 
 ## Memindahkan air di dalam gelas
 
